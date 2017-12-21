@@ -1,0 +1,16 @@
+page-home {
+    .main{
+        //background-image: url("../assets/imgs/giphy.gif");
+        background-image: url("../assets/imgs/bg3.jpg");
+        //background-repeat: no-repeat;
+        background-size: 1424px 752px;
+    }      
+    @media all and (max-width: 600px) {
+        .main{
+            //background-image: url("../assets/imgs/giphy.gif");
+            background-image: url("../assets/imgs/bg3.jpg");
+            //background-repeat: no-repeat;
+            background-size: 414px 736px;
+        }   
+    }
+}
